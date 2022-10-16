@@ -16,7 +16,7 @@ const sketch = ({context, width, height}) => {
     agents.push(new Agent(x,y));  
   }
   return ({ context, width, height }) => {
-    context.fillStyle = 'CYAN';
+    context.fillStyle = 'white';
     context.fillRect(0, 0, width, height);
 
     for (let i = 0; i < agents.length; i++){
